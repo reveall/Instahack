@@ -4,7 +4,7 @@ import os
 import codecs
 import time
 import socket
-import socks
+import socket
 
 socket.socket = socks.socksocket
 
